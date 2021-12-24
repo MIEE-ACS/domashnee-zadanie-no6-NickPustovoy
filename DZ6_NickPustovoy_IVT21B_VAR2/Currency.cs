@@ -26,6 +26,7 @@ namespace DZ6_NickPustovoy_IVT21B_VAR2
             return inRubles;
         }
 
-        abstract protected void ToRubles();
+        abstract public decimal ToRubles();
+        
     }
 }

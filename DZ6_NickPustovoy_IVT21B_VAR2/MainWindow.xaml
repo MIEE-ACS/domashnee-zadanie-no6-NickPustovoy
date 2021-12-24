@@ -11,7 +11,7 @@
         <TextBox x:Name="Tb1" HorizontalAlignment="Left" Height="66" TextWrapping="Wrap" Text="Сумма" VerticalAlignment="Top" Width="178" Margin="10,10,0,0"/>
         <Button x:Name="Btad" Content="Добавить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="215" Margin="431,10,0,0" Height="66" Click="Btad_Click"/>
         <ListBox x:Name="TextList" HorizontalAlignment="Left" Height="208" VerticalAlignment="Top" Width="772" Margin="10,102,0,0"/>
-        <Button x:Name="Btsort" Content="Сортировать" HorizontalAlignment="Left" VerticalAlignment="Top" Width="215" Margin="10,336,0,0" Height="73"/>
-        <Button x:Name="Btfilt" Content="Фильтр $" HorizontalAlignment="Left" VerticalAlignment="Top" Width="215" Margin="567,336,0,0" Height="73"/>
+        <Button x:Name="Btsort" Content="Сортировать" HorizontalAlignment="Left" VerticalAlignment="Top" Width="215" Margin="10,336,0,0" Height="73" Click="Btsort_Click"/>
+        <Button x:Name="Btfilt" Content="Фильтр $" HorizontalAlignment="Left" VerticalAlignment="Top" Width="215" Margin="567,336,0,0" Height="73" Click="Btfilt_Click"/>
     </Grid>
 </Window>

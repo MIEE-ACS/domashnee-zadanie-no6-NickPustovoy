@@ -12,9 +12,14 @@ namespace DZ6_NickPustovoy_IVT21B_VAR2
         {
             ToRubles();
         }
-        override protected void ToRubles()
+        override public decimal ToRubles()
         {
             inRubles = Amount * 73;
+            return inRubles;
+        }
+        public override string ToString()
+        {
+             return $"{Amount} Долларов = {inRubles} Рублей";
         }
     }
 }
